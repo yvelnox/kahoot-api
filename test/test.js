@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import { pin, proxy } from './config';
 import { Session, Adapters } from '../src';
 
-// Change pin first in pin.js
+/* Change pin first in config.js */
 
 describe('Kahoot', () => {
   const session = new Session(pin, proxy);
